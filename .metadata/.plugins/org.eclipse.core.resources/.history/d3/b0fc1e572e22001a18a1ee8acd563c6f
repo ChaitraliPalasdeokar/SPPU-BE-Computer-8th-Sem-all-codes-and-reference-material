@@ -1,0 +1,4 @@
+public class Sdes
+{
+	String key, plain_text;
+}

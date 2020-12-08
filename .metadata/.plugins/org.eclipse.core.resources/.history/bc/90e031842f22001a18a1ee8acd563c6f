@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Sdes
+{
+	String key, plain_text;
+	int[] p10 = {1,2,3,4,5,6}, p8, p4, ip, ip_inv;
+	
+	public Sdes(String key, String plain_text)
+	{
+		this.key = key;
+		this.plain_text = plain_text;
+		
+	}
+	
+	public static void main(String args[])
+	{
+		String k, p;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the key : ");
+		p = sc.nextLine();
+		System.out.println("Enter the plain text : ");
+		k = sc.nextLine();
+	}
+}

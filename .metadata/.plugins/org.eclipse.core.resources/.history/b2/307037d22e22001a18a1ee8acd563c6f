@@ -1,0 +1,10 @@
+public class Sdes
+{
+	String key, plain_text;
+	int[] p10, p8, p4, ip, ip_inv;
+	
+	public Sdes()
+	{
+		p10[] = {3, 5, 2, 7, 4, 10, 1, 9, 8, 6};
+	}
+}

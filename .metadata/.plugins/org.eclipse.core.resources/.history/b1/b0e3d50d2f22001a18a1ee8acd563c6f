@@ -1,0 +1,15 @@
+public class Sdes
+{
+	String key, plain_text;
+	int[] p10, p8, p4, ip, ip_inv;
+	
+	public Sdes(String key, String plain_text)
+	{
+		this.key = key;
+		this.plain_text = plain_text;
+		p10 = new int[10];
+		
+	}
+	
+	public main
+}

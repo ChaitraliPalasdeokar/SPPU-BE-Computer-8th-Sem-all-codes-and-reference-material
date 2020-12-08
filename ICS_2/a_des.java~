@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class a_des
+{
+	String plaintext;
+	String ciphertext;
+	String key;
+	
+	public a_des()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter plain text(16 bit) :- ");
+		plaintext = sc.nextLine();
+		System.out.println("Enter key(16 bit) :- ");
+		key = sc.nextLine();
+	}
+	
+	public void generateKey()
+	{
+		String key1 = plaintext, key2, key3;
+		String w0 = plaintext.substring(-1, 8);
+		String w1 = plaintext.substring(7);
+		System.out.println()
+	}
+}
