@@ -1,0 +1,14 @@
+MOV AX, c
+MUL AX, d
+MOV t1, AX
+MOV AX, b
+ADD AX, t1
+MOV t2, AX
+MOV AX, e
+DIV AX, f
+MOV t3, AX
+MOV AX, t2
+ADD AX, t3
+MOV t4, AX
+MOV AX, t4
+MOV a, AX
